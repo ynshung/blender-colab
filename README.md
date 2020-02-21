@@ -1,12 +1,13 @@
 <a href="https://colab.research.google.com/github/syn73/blender-colab/blob/master/blender_render.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # Intro
-This is a Python script that allows you to render Blender scene using Google Colab.
-You can upload the blender files using direct upload, Google Drive or URL.
-Frames rendered can be downloaded directly or through Google Drive.
-This script provides basic functionality so you may modify the script to your liking to suit your needs.
-Save a copy of this notebook in the File menu before proceeding. (*Note that the script may update over time.*)
-Adapted from [donmahallem](https://gist.github.com/donmahallem/a05100077ec1327268f28f0b2bd8da60)'s original script, special thanks to him!
+This is a Python script that allows you to render Blender scene using Google Colab. You can upload the blender files using direct upload, Google Drive or URL. Frames rendered can be downloaded directly or through Google Drive. This script provides basic functionality so you may modify the script to your liking to suit your needs. Save a copy of this notebook in the File menu before proceeding. (*Note that the script may update over time.*) I discovered [this gist](https://gist.github.com/donmahallem/a05100077ec1327268f28f0b2bd8da60) from the Sheepit community in the Blender Discord server. Special thanks to [donmahallem](https://github.com/donmahallem) and the community!
+
+Do note that:
+1. You must own a Google account.
+2. Hardware accelerator must be set to GPU in `Edit > Notebook settings`.
+3. One notebook can only run for 12 hours unless you upgrade to Colab Pro.
+4. This script is not tested fully yet.
 
 # Setup
 **Make sure to read the instructions carefully!**
@@ -29,3 +30,6 @@ ___
 * `drive_output_path` : Path to your frames/zip file in Google Drive.
 
 After you are done, simply go to Runtime > Run All (Ctrl + F9) and upload your files or have Google Drive authorised.
+
+## Disclaimer
+The GPU used in Google Colab is specialized for data centres, neural network etc, not rendering 3D scenes. Because the computing power provided are free, the usage limits and speed of the rendering may varies. [ColabPro](https://colab.research.google.com/signup) is available for those who wanted to have more powerful GPU and longer session for rendering. See the [FAQ](https://research.google.com/colaboratory/faq.html) for more info about this platform. In some cases, it might be faster to use a renderfarm such as [Sheepit](https://www.sheepit-renderfarm.com/) (free) and [ConciergeRender](https://www.conciergerender.com/) (trial) which have parallel rendering.
