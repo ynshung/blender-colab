@@ -8,10 +8,10 @@ This script is adapted from this [gist](https://gist.github.com/donmahallem/a051
 
 A few notes:
 1. You must own a Google account.
-2. Hardware accelerator must be set to GPU in `Edit > Notebook settings`.
-3. One notebook can only run for 12 hours unless you upgrade to Colab Pro.
-4. EEVEE rendering is not supported in virtual machine.
-5. This script is not tested fully yet. Expect some errors.
+2. One notebook can only run for 12 hours unless you upgrade to Colab Pro.
+3. EEVEE rendering is not supported in virtual machine.
+4. This script is not tested fully yet. Expect some errors.
+5. Do note that your access to GPU may be limited or blocked if you render for many hours.
 6. This script is intended for those who have no access to high-end GPU for rendering. Please use responsibly!
 
 ## Disclaimer
