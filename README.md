@@ -2,7 +2,7 @@
 
 <a href="https://colab.research.google.com/github/ynshung/blender-colab/blob/master/blender_render.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-This is a Python script that allows you to render Blender 2.9+ scene using Google Colaboratory.
+This is a Python script that allows you to render Blender 3.0+ and older version scene using Google Colaboratory.
 You can upload the blender files using direct upload, Google Drive or URL. Rendered frames can be downloaded directly or through Google Drive.
 This script provides basic functionality so you may modify the script to your liking to suit your needs.
 
@@ -34,4 +34,4 @@ Common errors:
 * `MessageError: TypeError: Failed to fetch` while downloading: The tab must be opened so that the frames can be downloaded.
 
 ## Disclaimer
-Google Colab is specialized for data centres, neural network etc, not rendering 3D scenes. Because the computing power provided are free, the usage limits, idle timeouts and speed of the rendering may varies. [ColabPro](https://colab.research.google.com/signup) is available for those who wanted to have more powerful GPU and longer session for rendering. See the [FAQ](https://research.google.com/colaboratory/faq.html) for more info.
+Google Colab is targeted to researchers and students to run AI/ML tasks, data analysis and education, not rendering 3D scenes. Because the computing power provided are free, the usage limits, idle timeouts and speed of the rendering may varies time by time. [Colab Pro and Colab Pro+](https://colab.research.google.com/signup) are available for those who wanted to have more powerful GPU and longer runtimes for rendering. See the [FAQ](https://research.google.com/colaboratory/faq.html) for more info. In some cases, it might be faster to use an online Blender renderfarm.
