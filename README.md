@@ -2,7 +2,7 @@
 
 <a href="https://colab.research.google.com/github/ynshung/blender-colab/blob/master/blender_render.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-This is a Python script that allows you to render Blender 3.0+ and older version scene using Google Colaboratory.
+This is a Python script that allows you to render Blender 5.0+ and older version scene using Google Colaboratory.
 You can upload the blender files using direct upload, Google Drive or URL. Rendered frames can be downloaded directly or through Google Drive.
 This script provides basic functionality so you may modify the script to your liking to suit your needs.
 
